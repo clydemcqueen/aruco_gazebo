@@ -1,2 +1,3 @@
 # aruco_gazebo
-Aruco Visual Markers for Gazebo Simulator
+
+ArUco marker models for [Gazebo](http://gazebosim.org/). Uses the 6x6 dictionary.
