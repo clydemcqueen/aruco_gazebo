@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
   <world name="default">
+
     <include>
       <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
     </include>
 
     <model name="marker0">
@@ -10,7 +15,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_0</uri>
       </include>
-      <pose>1 0 0 0 0 0</pose>
+      <pose>1 0 0.01 0 0 0</pose>
     </model>
 
     <model name="marker1">
@@ -18,7 +23,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_1</uri>
       </include>
-      <pose>1 1 0 0 0 0</pose>
+      <pose>1 1 0.01 0 0 0</pose>
     </model>
 
     <model name="marker2">
@@ -26,7 +31,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_2</uri>
       </include>
-      <pose>1 2 0 0 0 0</pose>
+      <pose>1 2 0.01 0 0 0</pose>
     </model>
 
     <model name="marker3">
@@ -34,7 +39,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_3</uri>
       </include>
-      <pose>1 3 0 0 0 0</pose>
+      <pose>1 3 0.01 0 0 0</pose>
     </model>
 
     <model name="marker4">
@@ -42,7 +47,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_4</uri>
       </include>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 0.01 0 0 0</pose>
     </model>
 
     <model name="marker5">
@@ -50,7 +55,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_5</uri>
       </include>
-      <pose>0 1 0 0 0 0</pose>
+      <pose>0 1 0.01 0 0 0</pose>
     </model>
 
     <model name="marker6">
@@ -58,7 +63,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_6</uri>
       </include>
-      <pose>0 2 0 0 0 0</pose>
+      <pose>0 2 0.01 0 0 0</pose>
     </model>
 
     <model name="marker7">
@@ -66,7 +71,7 @@
         <static>true</static>
         <uri>model://aruco_visual_marker_7</uri>
       </include>
-      <pose>0 3 0 0 0 0</pose>
+      <pose>0 3 0.01 0 0 0</pose>
     </model>
 
   </world>
